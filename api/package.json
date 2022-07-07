@@ -4,9 +4,10 @@
   "description": "example project react with nodejs",
   "main": "server.js",
   "scripts": {
-    "start": "node server.bundle.js",
+    "start": "node server2.js",
     "build": "webpack",
-    "dev": "nodemon ./server.js localhost 3070"
+    "dev": "nodemon ./server.js localhost 3070",
+    "prod": "nodemon ./server2.js localhost 3070"
   },
   "repository": {
     "type": "git",
